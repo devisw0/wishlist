@@ -1,0 +1,67 @@
+/* General container styling */
+.container {
+    margin: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  form .form-control {
+    width: 200px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form .btn-primary {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List styling */
+  .wish-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wish-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .wish-list li .form-check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wish-list li .checkbox {
+    margin-right: 10px;
+  }
+  
+  /* Checkbox styling */
+  .wish-list input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+  }
+  
+  /* Additional styling for text */
+  .wish-list label {
+    font-size: 18px;
+    color: #333;
+  }
+  
